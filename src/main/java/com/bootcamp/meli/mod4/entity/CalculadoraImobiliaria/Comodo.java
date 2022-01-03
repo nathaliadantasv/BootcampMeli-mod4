@@ -1,4 +1,4 @@
-package com.bootcamp.meli.mod4.entity;
+package com.bootcamp.meli.mod4.entity.CalculadoraImobiliaria;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

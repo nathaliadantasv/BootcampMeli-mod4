@@ -1,8 +1,8 @@
-package com.bootcamp.meli.mod4.controller;
+package com.bootcamp.meli.mod4.controller.CalculadoraImobiliaria;
 
-import com.bootcamp.meli.mod4.DTO.ComodoDTO;
-import com.bootcamp.meli.mod4.entity.Casa;
-import com.bootcamp.meli.mod4.service.CasaService;
+import com.bootcamp.meli.mod4.DTO.CalculadoraImobiliaria.ComodoDTO;
+import com.bootcamp.meli.mod4.entity.CalculadoraImobiliaria.Casa;
+import com.bootcamp.meli.mod4.service.CalculadoraImobiliaria.CasaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

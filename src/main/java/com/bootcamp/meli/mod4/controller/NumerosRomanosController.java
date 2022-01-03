@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class NumerosRomanosController {
 
     @GetMapping(path = "/numero/{numeroDecimal}")
-    public String converterParaRomanos(@PathVariable String numeroDecimal){
+    public String converterParaRomanos(@PathVariable String numeroDecimal) {
         String valor = "Opcão não cadastrada. Escolha um outro valor de 1-10.";
-        switch(numeroDecimal){
+        switch (numeroDecimal) {
             case "1":
                 valor = "I";
                 break;

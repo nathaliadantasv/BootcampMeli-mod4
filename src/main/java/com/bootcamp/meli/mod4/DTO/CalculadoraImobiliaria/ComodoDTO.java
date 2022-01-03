@@ -1,4 +1,4 @@
-package com.bootcamp.meli.mod4.DTO;
+package com.bootcamp.meli.mod4.DTO.CalculadoraImobiliaria;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

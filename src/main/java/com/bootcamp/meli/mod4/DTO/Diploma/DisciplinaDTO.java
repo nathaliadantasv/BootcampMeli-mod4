@@ -1,4 +1,4 @@
-package com.bootcamp.meli.mod4.DTO;
+package com.bootcamp.meli.mod4.DTO.Diploma;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ public class DisciplinaDTO {
 
     private String nome;
     private List<Integer> notas;
-    private static double media;
+    private double media;
 
     public DisciplinaDTO(String nome, List<Integer> notas) {
         this.nome = nome;
@@ -21,13 +21,13 @@ public class DisciplinaDTO {
         return notas;
     }
 
-    public double getMedia(){
+    public double getMedia() {
         double total = 0;
-        for(Integer i : notas){
+        for (Integer i : notas) {
             total += i;
         }
 
-        this.media = total/notas.size();
+        this.media = total / notas.size();
 
         return media;
     }
